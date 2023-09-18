@@ -1,0 +1,6 @@
+{
+    "cmake.configureOnOpen": false,
+    "dataworkspace.excludedProjects": [
+        "bss yuhi he/bss yuhi he.sqlproj"
+    ]
+}

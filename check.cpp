@@ -19,3 +19,14 @@
 //    else
 //    cout<<"not pallindrome";
 // }
+#include <iostream>
+using namespace std;
+ int main() {
+     int i, j,num=0;
+     for(int i=0;i<5;i++){
+          j=num++ ;
+          cout<<j;
+     }
+     cout<<endl;
+   // cout<< num;
+ }

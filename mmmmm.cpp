@@ -2,23 +2,30 @@
 using namespace std;
 
 int main() {
-    int height;
-    cout << "Enter the height of the triangle: ";
-    cin >> height;
-
-    for (int i = 0; i < height; ++i) {
-        // Print spaces before the asterisks
-        for (int j = 0; j < height - i - 1; ++j) {
-            cout << " ";
-        }
-          
-        // Print asterisks
-        for (int j = 0; j < 2 * i + 1; ++j) {
-            cout << "*";
-        }
-
-        cout << endl;  // Move to the next line after each row
+   int i,n,sum=0;
+   cout<< "enter the number to take for arr size.";
+   cin>>n;
+   int a[n];
+   cout<<"array of a[n]."<<endl;
+   for(i=0;i<n;i++){
+       cin>>a[i];
+   }
+   cout<<"array is .";
+   for(i=0;i<n;i++){
+       cout<<a[i];
+   }
+   cout<<endl;
+   cout<<"running output."<<endl;
+   sum=a[0];
+   cout<<sum <<" ";
+   for(i=1;i<n;i++)
+    {
+        sum=sum+a[i];
+        cout<<sum<<" ";
+        //a[i]=a[i]+ a[i-1];
+         //cout<<a[i] <<" ";
     }
-
-    return 0;
+    
+    //cout<<a[n];
+return 0;
 }
